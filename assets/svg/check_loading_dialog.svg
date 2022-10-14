@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>icon/24/system/loading</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/24/system/loading" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20,2 C29.9411255,2 38,10.0588745 38,20 C38,29.9411255 29.9411255,38 20,38 C10.0588745,38 2,29.9411255 2,20 C2,10.0588745 10.0588745,2 20,2 Z M20,4 C11.163444,4 4,11.163444 4,20 C4,28.836556 11.163444,36 20,36 C28.836556,36 36,28.836556 36,20 C36,11.163444 28.836556,4 20,4 Z" id="椭圆形" fill="#E8E8E8" fill-rule="nonzero"></path>
+        <path d="M36.6507403,13.1506518 C36.8610264,13.6613359 36.6175057,14.2457977 36.1068216,14.4560838 C35.5961376,14.6663699 35.0116758,14.4228492 34.8013897,13.9121651 C32.3520906,7.96399242 26.5432598,4 20,4 C19.4477153,4 19,3.55228475 19,3 C19,2.44771525 19.4477153,2 20,2 C27.3606894,2 33.8954496,6.45937245 36.6507403,13.1506518 Z" id="Rectangle-Copy-8" fill="#038DFF" fill-rule="nonzero"></path>
+    </g>
+</svg>
