@@ -141,15 +141,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.6"
-  eventsource:
-    dependency: transitive
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: ecda0fffeefc4ab0343e1a0c65ad5f6548ea0273
-      url: "https://github.com/mehcode/dart-eventsource.git"
-    source: git
-    version: "0.3.0"
   fake_async:
     dependency: transitive
     description:
@@ -190,24 +181,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
-  flutter_multi_windows:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: support_windows
-      resolved-ref: a7c1e9b619fae066d44d8654cb4a7ca5e27ea315
-      url: "git@gitlab.gz.cvte.cn:mhos-apps/flutter/fluttermultiwindows.git"
-    source: git
-    version: "0.0.1"
-  flutter_native_ability:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: develop
-      resolved-ref: "11e1a1f67e1cdc467bcc7cee0ec311d2bb2745bb"
-      url: "git@gitlab.gz.cvte.cn:cvte_flutter/flutter_native_ability.git"
-    source: git
-    version: "0.0.1"
   flutter_screenutil:
     dependency: "direct main"
     description:
@@ -309,13 +282,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.0"
-  logging:
-    dependency: transitive
-    description:
-      name: logging
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.2"
   matcher:
     dependency: transitive
     description:
@@ -498,20 +464,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.3"
-  sentry:
-    dependency: transitive
-    description:
-      name: sentry
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "6.11.1"
-  sentry_flutter:
-    dependency: "direct main"
-    description:
-      name: sentry_flutter
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "6.11.1"
   shared_preferences:
     dependency: "direct main"
     description:
@@ -601,13 +553,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.0"
-  sync:
-    dependency: transitive
-    description:
-      name: sync
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.3.0"
   term_glyph:
     dependency: transitive
     description:
@@ -636,15 +581,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.3.1"
-  udisdk:
-    dependency: "direct main"
-    description:
-      path: udisdk
-      ref: "release/2.2.0"
-      resolved-ref: "410df8747524c125a925fe9248b58fff86707fc8"
-      url: "git@gitlab.gz.cvte.cn:udi/common/uditesttool.git"
-    source: git
-    version: "0.0.1"
   universal_disk_space:
     dependency: "direct main"
     description:

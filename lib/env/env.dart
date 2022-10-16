@@ -16,12 +16,12 @@ class EnvConfig {
     WindowManager w = WindowManager.instance;
     await w.ensureInitialized();
     WindowOptions windowOptions = WindowOptions(
-      size: displaySize,
-      minimumSize: displaySize,
-      alwaysOnTop: true, // 设置置顶
-      titleBarStyle: TitleBarStyle.hidden, // 去除窗口标题栏
-      skipTaskbar: true // 去除状态栏图标
-    );
+        size: displaySize,
+        minimumSize: displaySize,
+        alwaysOnTop: true, // 设置置顶
+        titleBarStyle: TitleBarStyle.hidden, // 去除窗口标题栏
+        skipTaskbar: true // 去除状态栏图标
+        );
     w.waitUntilReadyToShow(windowOptions, () async {
       double w1 = (primaryDisplay.size.width - relWidth) / 2;
       await w.setBackgroundColor(Colors.transparent);
