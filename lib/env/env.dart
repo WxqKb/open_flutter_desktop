@@ -4,7 +4,7 @@ import 'package:window_manager/window_manager.dart';
 import 'package:windows_single_instance/windows_single_instance.dart';
 
 class EnvConfig {
-  static late double relHeight;
+  static double relHeight = 30;
 
   static initWindow(List<String> args, {Size? screenSize}) async {
     // 获取屏幕真实大小

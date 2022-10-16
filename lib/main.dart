@@ -2,12 +2,15 @@ import 'package:desktop_app/src/pages/clever_island.dart';
 import 'package:desktop_app/theme/light.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 
 import 'env/env.dart';
 
 void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
-  await EnvConfig.initWindow(args);
+  if (GetPlatform.isWindows) {
+    await EnvConfig.initWindow(args);
+  }
   runApp(
     const MyApp(),
   );
@@ -34,7 +37,6 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key}) : super(key: key);
-
 
   @override
   Widget build(BuildContext context) {

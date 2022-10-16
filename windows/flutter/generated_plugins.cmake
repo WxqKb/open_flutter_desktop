@@ -5,11 +5,7 @@
 list(APPEND FLUTTER_PLUGIN_LIST
   connectivity_plus_windows
   desktop_multi_window
-  flutter_multi_windows
-  flutter_native_ability
   screen_retriever
-  sentry_flutter
-  udisdk
   window_manager
   windows_single_instance
 )
